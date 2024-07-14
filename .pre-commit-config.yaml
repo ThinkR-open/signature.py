@@ -7,6 +7,7 @@ repos:
         exclude: ^signature/css/signature.css.map
       - id: check-yaml
       - id: check-added-large-files
+        exclude: ^signature/assets/current_banner.png
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.5.1
