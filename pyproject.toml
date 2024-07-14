@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "signature-py"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Bréant <arthur@thinkr.fr>"]
+readme = "README.md"
+packages = [{include = "signature"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+wheel = "^0.43.0"
+shiny = "^0.10.2"
+pre-commit = "^3.7.1"
+pytest = "^8.2.2"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
