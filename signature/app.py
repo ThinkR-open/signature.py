@@ -5,7 +5,13 @@ from pathlib import Path
 current_dir = Path(__file__).parent
 
 app_ui = ui.page_fixed(
+    ui.head_content(
+        ui.tags.script(
+            src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js",
+        ),
+    ),
     ui.include_css(current_dir / "css" / "signature.css"),
+    ui.include_js(current_dir / "js" / "signature.js"),
     mod_navbar.navbar_ui("nav_signature"),
     ui.div(
         ui.div(

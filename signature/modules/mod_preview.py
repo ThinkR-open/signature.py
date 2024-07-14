@@ -44,6 +44,7 @@ def preview_ui():
                             class_="btn-info btn-md",
                             label_busy="Copied!",
                             icon_busy=icon_svg("check"),
+                            data_clipboard_target="#signature",
                         ),
                         class_="card-footer bg-transparent border-top-0",
                     ),
