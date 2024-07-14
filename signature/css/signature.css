@@ -11851,8 +11851,7 @@ body {
 }
 
 .navbar {
-  padding-top: 2.7em;
-  padding-bottom: 1.7em;
+  padding: 1.5em 0;
 }
 .navbar .navbar-brand {
   font-size: 1.5em;
