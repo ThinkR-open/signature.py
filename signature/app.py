@@ -1,8 +1,8 @@
 from shiny import App, Inputs, Outputs, Session, ui
-
+from modules import mod_navbar
 
 app_ui = ui.page_fixed(
-    ui.h1("Signature.py"),
+    mod_navbar.navbar_ui("nav_signature"),
 )
 
 
