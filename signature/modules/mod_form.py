@@ -49,6 +49,24 @@ def form_ui():
         ),
     )
 
+    accordion.add_item(
+        "Details about this application",
+        ui.TagList(
+            ui.p(
+                "This application is a demonstration of the use of the shiny library with Python."
+            ),
+            ui.p(
+                "You can enter your personal and professional information in the form on the left. Then you can preview the rendering of your signature on the right."
+            ),
+            ui.p("Then you can copy the signature to your clipboard."),
+            ui.a(
+                "You can explore the code of this application on GitHub.",
+                href="https://github.com/ThinkR-open/signature.py/",
+                target="_blank",
+            ),
+        ),
+    )
+
     return ui.div(
         ui.div(
             accordion.render(),
