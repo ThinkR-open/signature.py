@@ -65,19 +65,19 @@ def preview_server(
     @render.text
     def render_template() -> str:
         print(reactive_values())
-        first_name = reactive_values().get("firstname")
-        if first_name == "":
-            first_name = "{{firstname}}"
 
-        last_name = reactive_values().get(
-            "lastname",
-        )
-        if last_name == "":
-            last_name = "{{lastname}}"
+        first_name = reactive_values().get("firstname")
+        last_name = reactive_values().get("lastname")
+        job_title = reactive_values().get("job_title")
+        email = reactive_values().get("email")
+        phone = reactive_values().get("phone")
 
         rendered_template = template.render(
-            firstname=first_name,
-            lastname=last_name,
+            firstname="{{firstname}}" if first_name == "" else first_name,
+            lastname="{{lastname}}" if last_name == "" else last_name,
+            job_title="{{job_title}}" if job_title == "" else job_title,
+            email="{{email}}" if email == "" else email,
+            phone="{{phone}}" if phone == "" else phone,
         )
         return rendered_template
 
