@@ -4,6 +4,7 @@ repos:
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
+        exclude: ^signature/css/signature.css.map
       - id: check-yaml
       - id: check-added-large-files
 
