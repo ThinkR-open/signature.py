@@ -72,7 +72,7 @@ def form_ui():
             accordion.render(),
             class_="container",
         ),
-        class_="col-5",
+        class_="col-lg-5 col-md-12",
     )
 
 

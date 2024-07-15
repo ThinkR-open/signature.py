@@ -17,17 +17,38 @@
     "requirements.txt": {
       "checksum": "84d1d42131ce1e5944400fc49d624215"
     },
+    ".DS_Store": {
+      "checksum": "ca533e3406ff67c0e417342bfcace7ab"
+    },
     "__init__.py": {
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "app.py": {
-      "checksum": "33cc81731b75b1d7b587443a8195f852"
+      "checksum": "c2c6683833aeca7c5ee8ffe0b2c0772f"
+    },
+    "assets/.DS_Store": {
+      "checksum": "e7b257cc2c2fc363dd11963b1a0b369f"
     },
     "assets/current_banner.png": {
       "checksum": "3636b04621cc9c8b814fdef693f124c6"
     },
     "assets/favicon.svg": {
       "checksum": "bd3779c00c0eddb15a03f6c818a8b10f"
+    },
+    "assets/icons/github.png": {
+      "checksum": "a29dc3691124638b000809a7696281d5"
+    },
+    "assets/icons/linkedin.png": {
+      "checksum": "d492efc706db983e74258dbd348f2208"
+    },
+    "assets/icons/twitch.png": {
+      "checksum": "14b31ed2b2b0a67bad1f12faa6a20cb7"
+    },
+    "assets/icons/twitter.png": {
+      "checksum": "a8f692e1d74ae65793b6d212794bc0c2"
+    },
+    "assets/icons/youtube.png": {
+      "checksum": "8f8bc2286e823d24d028e4c2b7ce754d"
     },
     "assets/signature_hex.png": {
       "checksum": "999f2aa20bc87a6590031b69518c8d16"
@@ -48,22 +69,22 @@
       "checksum": "7a7b17d0e32bbc958e25d97df83f42dd"
     },
     "modules/__pycache__/mod_form.cpython-312.pyc": {
-      "checksum": "113565acce0e874401ce0e973c31369b"
+      "checksum": "087ea01a3b616c5192eedca9d8897505"
     },
     "modules/__pycache__/mod_navbar.cpython-312.pyc": {
       "checksum": "1059a70bc56abf044b8e79b8c926c875"
     },
     "modules/__pycache__/mod_preview.cpython-312.pyc": {
-      "checksum": "1ecef2ef4c26a0f285442bf7e3078d0f"
+      "checksum": "bf5db373bcbf16d708d1cd4e690fb817"
     },
     "modules/mod_form.py": {
-      "checksum": "e063a529681285074c3f44533770d2d3"
+      "checksum": "832060e174eb8e0fa8b7b9159018e60c"
     },
     "modules/mod_navbar.py": {
       "checksum": "8e5e062ca0e6a0d3b8cfdc02f08c4084"
     },
     "modules/mod_preview.py": {
-      "checksum": "f1185de0c476c59010f91c1538141160"
+      "checksum": "40c629c481160067dafcd0f0d5f71e5a"
     },
     "node_modules/.package-lock.json": {
       "checksum": "f472a1d452e19e4da09b1630101a5802"
@@ -1575,7 +1596,7 @@
       "checksum": "5121d69224e36f535647b9dfd6a89a52"
     },
     "template/template.html": {
-      "checksum": "0c0695cb36f0d0775330234ab9197eda"
+      "checksum": "a4dd885c1a58adb736c4714abba75432"
     }
   }
 }
