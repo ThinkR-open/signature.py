@@ -6,6 +6,7 @@ current_dir = Path(__file__).parent
 
 app_ui = ui.page_fixed(
     ui.head_content(
+        ui.tags.title("signature.py"),
         ui.tags.script(
             src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js",
         ),
