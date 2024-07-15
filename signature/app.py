@@ -11,7 +11,7 @@ app_ui = ui.page_fixed(
         ),
         ui.tags.link(
             rel="icon",
-            href="/favicon.svg",
+            href="favicon.svg",
         ),
     ),
     ui.include_css(current_dir / "css" / "signature.css"),
