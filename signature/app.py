@@ -9,6 +9,10 @@ app_ui = ui.page_fixed(
         ui.tags.script(
             src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js",
         ),
+        ui.tags.link(
+            rel="icon",
+            href="/favicon.svg",
+        ),
     ),
     ui.include_css(current_dir / "css" / "signature.css"),
     ui.include_js(current_dir / "js" / "signature.js"),
@@ -35,4 +39,4 @@ def server(input: Inputs, output: Outputs, session: Session):
     )
 
 
-app = App(app_ui, server, debug=False)
+app = App(app_ui, server, static_assets=current_dir / "assets", debug=False)
