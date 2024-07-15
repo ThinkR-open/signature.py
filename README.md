@@ -4,7 +4,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7Bsignature%7D?node-id=705-5&t=xevegkmzONTrRyR3-8&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=705%3A5&hide-ui=1)
 
-This is the python version of the [`{signature.r}`](d) application.
+This is the python version of the [`{signature.r}`](https://github.com/ThinkR-open/signature.r) application.
 
 This application provides a graphical interface to streamline the creation and maintenance of your email signature.
 
@@ -18,7 +18,8 @@ Lastly, updating the banner (the image at the bottom of the signature) and the a
 
 ## Demo
 
-Try the app at _todo_
+🕹️ Try the app at:
+[https://connect.thinkr.fr/signature-py/](https://connect.thinkr.fr/signature-py/)
 
 ## Try locally
 
@@ -72,4 +73,16 @@ Explore the mockup [here](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7B
 
 ## Deployment
 
-_Todo_
+The app is deployed on Connect.
+
+```bash
+poetry shell
+cd signature
+rsconnect write-manifest shiny . --overwrite
+```
+
+Then update `requirements.txt` :
+
+```bash
+poetry export --without-hashes --format=requirements.txt > requirements.txt
+```
