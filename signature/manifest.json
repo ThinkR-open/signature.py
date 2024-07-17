@@ -24,7 +24,7 @@
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "app.py": {
-      "checksum": "c2c6683833aeca7c5ee8ffe0b2c0772f"
+      "checksum": "f973076b0ef00f8721564ff1a083b7fa"
     },
     "assets/.DS_Store": {
       "checksum": "e7b257cc2c2fc363dd11963b1a0b369f"
@@ -69,22 +69,22 @@
       "checksum": "7a7b17d0e32bbc958e25d97df83f42dd"
     },
     "modules/__pycache__/mod_form.cpython-312.pyc": {
-      "checksum": "087ea01a3b616c5192eedca9d8897505"
+      "checksum": "0560e1b8286b73b0e388dbad24fbbf57"
     },
     "modules/__pycache__/mod_navbar.cpython-312.pyc": {
       "checksum": "1059a70bc56abf044b8e79b8c926c875"
     },
     "modules/__pycache__/mod_preview.cpython-312.pyc": {
-      "checksum": "bf5db373bcbf16d708d1cd4e690fb817"
+      "checksum": "81c912733d8a3e9fad4372e1c9c86ba5"
     },
     "modules/mod_form.py": {
-      "checksum": "832060e174eb8e0fa8b7b9159018e60c"
+      "checksum": "d06b2f48ec8444bd14ad191d6135ae7f"
     },
     "modules/mod_navbar.py": {
       "checksum": "8e5e062ca0e6a0d3b8cfdc02f08c4084"
     },
     "modules/mod_preview.py": {
-      "checksum": "40c629c481160067dafcd0f0d5f71e5a"
+      "checksum": "68060ec60cd9c2803f48caf211f1b038"
     },
     "node_modules/.package-lock.json": {
       "checksum": "f472a1d452e19e4da09b1630101a5802"

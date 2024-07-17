@@ -4,7 +4,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7Bsignature%7D?node-id=705-5&t=xevegkmzONTrRyR3-8&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=705%3A5&hide-ui=1)
 
-This is the python version of the [`{signature.r}`](https://github.com/ThinkR-open/signature.r) application.
+This is the python version of the [`{signature.r}`](https://github.com/ThinkR-open/signature.r) and [`{signature.js}`](https://github.com/ThinkR-open/signature.js) application.
 
 This application provides a graphical interface to streamline the creation and maintenance of your email signature.
 

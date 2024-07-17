@@ -51,7 +51,7 @@ def preview_ui():
                 ),
                 class_="card",
             ),
-            class_="col-lg-7 col-md-12",
+            class_="col-lg-7 col-md-12 p-3",
         ),
     )
 

@@ -22,7 +22,7 @@ app_ui = ui.page_fixed(
         ui.div(
             mod_form.form_ui("form_signature"),
             mod_preview.preview_ui("preview_signature"),
-            class_="row g-5",
+            class_="row",
         ),
         class_="container",
     ),
