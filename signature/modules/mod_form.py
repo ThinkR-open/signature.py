@@ -70,9 +70,9 @@ def form_ui():
     return ui.div(
         ui.div(
             accordion.render(),
-            class_="container",
+            class_="row",
         ),
-        class_="col-lg-5 col-md-12",
+        class_="col-lg-5 col-md-12 p-3",
     )
 
 
