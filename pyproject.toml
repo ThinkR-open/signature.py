@@ -17,6 +17,7 @@ faicons = "^0.2.2"
 pathlib = "^1.0.1"
 jinja2 = "^3.1.4"
 rsconnect-python = "^1.24.0"
+pytest-github-report = "^0.0.1"
 
 
 [build-system]

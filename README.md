@@ -56,6 +56,7 @@ To modify the theme, edit the `signature/scss/signature.css` file.
 To compile the SCSS to CSS, run:
 
 ```bash
+cd signature
 sass scss/signature.scss css/signature.css
 ```
 
@@ -85,6 +86,20 @@ Then update `requirements.txt` :
 
 ```bash
 poetry export --without-hashes --format=requirements.txt > requirements.txt
+```
+
+## Tests
+
+To run the tests, use the following command:
+
+```bash
+poetry run pytest
+```
+
+or
+
+```bash
+poetry run pytest --github-report -vvv
 ```
 
 ## You love this project?
