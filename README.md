@@ -63,7 +63,7 @@ sass scss/signature.scss css/signature.css
 
 The redirection banner is a JavaScript function that redirects the user to the specified URL.
 
-To modify the redirection URL, edit the `index.html` file.
+To modify the redirection URL, edit the `index.html` file at the root of the project.
 
 ## Mockup
 
@@ -86,3 +86,27 @@ Then update `requirements.txt` :
 ```bash
 poetry export --without-hashes --format=requirements.txt > requirements.txt
 ```
+
+## You love this project?
+
+You love this project and would like to reuse it for your own needs?
+
+You can fork this repository and adapt it to your needs.
+
+What you can do:
+
+- fork this repository
+
+- adapt the signature template to your needs. The template is located in the `signature/template` folder. Edit the `template.html` file to modify the signature template.
+
+- modify the app to add or remove fields from the signature form to edit the signature.
+
+- modify the redirection banner to redirect to your own URL.
+
+- modify the theme by editing the `signature/scss/signature.scss` file.
+
+- deploy the app on your own server.
+
+- share the app with your colleagues.
+
+- enjoy the app!
