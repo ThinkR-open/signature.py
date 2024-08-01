@@ -59,8 +59,10 @@ def form_ui():
                 "You can enter your personal and professional information in the form on the left. Then you can preview the rendering of your signature on the right."
             ),
             ui.p("Then you can copy the signature to your clipboard."),
+            ui.p("You love this application and you would like to reuse it?"),
+            ui.p("Discover how to do it on the GitHub repository."),
             ui.a(
-                "You can explore the code of this application on GitHub.",
+                "Explore the code of this application on GitHub.",
                 href="https://github.com/ThinkR-open/signature.py/",
                 target="_blank",
             ),
