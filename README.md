@@ -49,6 +49,12 @@ poetry shell
 shiny run --reload signature/app.py
 ```
 
+or shortcut:
+
+```bash
+poe runshiny
+```
+
 ## Modify the theme
 
 This app uses Bootstrap `5.3.3`.
@@ -61,6 +67,8 @@ To compile the SCSS to CSS, run:
 cd signature
 sass scss/signature.scss css/signature.css
 ```
+
+or shi
 
 ## How the redirection banner works?
 
@@ -101,7 +109,32 @@ poetry run pytest
 or
 
 ```bash
-poetry run pytest --github-report -vvv
+poetry run pytest --github-report --verbose
+```
+
+or shortcut:
+
+```bash
+poe test
+```
+
+## Poe commands
+
+This project uses the `poe` command to run the app, tests, and other commands.
+
+To see the available commands, run:
+
+```bash
+poe
+```
+
+All the commands are defined in the `pyproject.toml` file.
+
+Create a new command by adding a new entry in the `tasks` section of the `pyproject.toml` file.
+
+```toml
+[tool.poe.tasks]
+hello = "echo 'Hello, world!'"
 ```
 
 ## You love this project?
@@ -127,3 +160,7 @@ What you can do:
 - share the app with your colleagues.
 
 - enjoy the app!
+
+```
+
+```
