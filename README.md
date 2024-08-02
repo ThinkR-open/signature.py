@@ -68,8 +68,6 @@ cd signature
 sass scss/signature.scss css/signature.css
 ```
 
-or shi
-
 ## How the redirection banner works?
 
 The redirection banner is a JavaScript function that redirects the user to the specified URL.
