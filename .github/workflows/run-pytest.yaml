@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  push:
+    branches: ["*"]
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🐙 Git Checkout
+        uses: actions/checkout@v3
+
+      - name: 🐍 Prepare Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: 🐍 Install Poetry
+        run: pip install poetry
+
+      - name: 🐍 Install dependencies
+        run: poetry install --no-interaction
+
+      - name: 🧪 Run tests
+        run: poetry run pytest --github-report -vvv

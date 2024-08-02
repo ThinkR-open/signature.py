@@ -1,5 +1,5 @@
 from shiny import App, Inputs, Outputs, Session, ui, reactive
-from modules import mod_navbar, mod_form, mod_preview
+from signature.modules import mod_navbar, mod_form, mod_preview
 from pathlib import Path
 
 current_dir = Path(__file__).parent

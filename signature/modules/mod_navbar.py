@@ -5,7 +5,11 @@ from shiny import Inputs, Outputs, Session, module, ui
 def navbar_ui():
     return (
         ui.tags.nav(
-            ui.tags.a("Signature.py", href="/", class_="navbar-brand"),
+            ui.div(
+                ui.tags.a("Signature.py", href="/", class_="navbar-brand"),
+                ui.input_dark_mode(),
+                class_="container-fluid",
+            ),
             class_="navbar navbar-light bg-transparent",
         ),
     )
