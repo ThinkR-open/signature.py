@@ -158,7 +158,3 @@ What you can do:
 - share the app with your colleagues.
 
 - enjoy the app!
-
-```
-
-```
