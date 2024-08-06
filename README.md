@@ -161,6 +161,8 @@ What you can do:
 
 - modify the theme by editing the `signature/scss/signature.scss` file.
 
+- Remove google analytics from tag script in the `app.py` file.
+
 - deploy the app on your own server.
 
 - share the app with your colleagues.

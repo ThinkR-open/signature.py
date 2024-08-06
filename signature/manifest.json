@@ -15,7 +15,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "84d1d42131ce1e5944400fc49d624215"
+      "checksum": "fb3384dc54debf9ac2f861655b17ef61"
     },
     ".DS_Store": {
       "checksum": "9beba8e7665a8fd7d081a2db0119a10d"
@@ -24,7 +24,7 @@
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "app.py": {
-      "checksum": "6a7c5d0be48ad49109a1ac1365707e90"
+      "checksum": "6495f870021d95acbbbd557ef0c55ffc"
     },
     "assets/.DS_Store": {
       "checksum": "e7b257cc2c2fc363dd11963b1a0b369f"
@@ -65,14 +65,20 @@
     "js/signature.js": {
       "checksum": "7a7b17d0e32bbc958e25d97df83f42dd"
     },
+    "modules/__init__.py": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "modules/__pycache__/__init__.cpython-312.pyc": {
+      "checksum": "c5536234a41a619cddadb3c5f700f276"
+    },
     "modules/__pycache__/mod_form.cpython-312.pyc": {
       "checksum": "e6ddda00ce13889794c848adbeb96e95"
     },
     "modules/__pycache__/mod_navbar.cpython-312.pyc": {
-      "checksum": "bf7bd44d6f7373944806d93820fcd493"
+      "checksum": "a437431c6ec31e684076b9d7962e6751"
     },
     "modules/__pycache__/mod_preview.cpython-312.pyc": {
-      "checksum": "09f8f9416fc5d2438af73087576bd49e"
+      "checksum": "63ea9a355f2bbfefbb17d613c5be12a3"
     },
     "modules/mod_form.py": {
       "checksum": "c9f972619f3b9211268e0c111182551a"
@@ -1614,16 +1620,16 @@
       "checksum": "1ffabdd92b5edbf00e771fffdebe4ba6"
     },
     "tests/pytest-playwright/__pycache__/test_e2e.cpython-312-pytest-8.2.2.pyc": {
-      "checksum": "c032f6f611320406991050b02c68d8e2"
+      "checksum": "2138189787b8968d3560be38f2df61af"
     },
     "tests/pytest-playwright/test_e2e.py": {
       "checksum": "8f503e816ae683437283f5f58b50cc43"
     },
     "tests/pytest-unit/__pycache__/test_accordion_panels.cpython-312-pytest-8.2.2.pyc": {
-      "checksum": "d0633c24bd492c2d55f613e43b28c2c3"
+      "checksum": "db33695ee08ded6335cb6e8c72627e97"
     },
     "tests/pytest-unit/__pycache__/test_one_plus_one.cpython-312-pytest-8.2.2.pyc": {
-      "checksum": "ed966d8b693f56a952c5ec5260246ff6"
+      "checksum": "30f9d60610dd9529dd854e890bd5d937"
     },
     "tests/pytest-unit/test_accordion_panels.py": {
       "checksum": "ca85c9fb39cbbdbe047d1d1459c80bd0"
