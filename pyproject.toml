@@ -29,5 +29,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 hello    = "echo 'Hello, World!'"
-test     = "poetry run pytest --github-report --verbose"
+test     = "poetry run pytest --github-report -vvv --browser webkit --browser chromium --browser firefox"
 runshiny = "shiny run --reload signature/app.py"
