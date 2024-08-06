@@ -7,7 +7,9 @@ def navbar_ui():
         ui.tags.nav(
             ui.div(
                 ui.tags.a("Signature.py", href="/", class_="navbar-brand"),
-                ui.input_dark_mode(),
+                ui.input_dark_mode(
+                    data_testid="darkmode-input",
+                ),
                 class_="container-fluid",
             ),
             class_="navbar navbar-light bg-transparent",
