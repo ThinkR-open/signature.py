@@ -10,9 +10,22 @@ app_ui = ui.page_fixed(
         ui.tags.script(
             src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js",
         ),
+        ui.tags.script(
+            src="https://www.googletagmanager.com/gtag/js?id=G-SPE51YQFS7",
+            async_=True,
+        ),
         ui.tags.link(
             rel="icon",
             href="favicon.svg",
+        ),
+        ui.tags.script(
+            """
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SPE51YQFS7');
+            """,
         ),
     ),
     ui.include_css(current_dir / "css" / "signature.css"),
