@@ -1,4 +1,4 @@
-name: Tests
+name: Unit tests + E2E tests
 
 on:
   push:
@@ -22,6 +22,9 @@ jobs:
 
       - name: 🐍 Install dependencies
         run: poetry install --no-interaction
+
+      - name: 🕸️ Ensure browsers are installed
+        run: poetry run playwright install
 
       - name: 🧪 Run tests
         run: poetry run pytest --github-report -vvv

@@ -4,7 +4,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7Bsignature%7D?node-id=705-5&t=xevegkmzONTrRyR3-8&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=705%3A5&hide-ui=1)
 
-[![Tests](https://github.com/ThinkR-open/signature.py/actions/workflows/run-pytest.yaml/badge.svg)](https://github.com/ThinkR-open/signature.py/actions/workflows/run-pytest.yaml)
+[![Unit tests + E2E tests](https://github.com/ThinkR-open/signature.py/actions/workflows/run-pytest.yaml/badge.svg)](https://github.com/ThinkR-open/signature.py/actions/workflows/run-pytest.yaml)
 
 This is the python version of the [`{signature.r}`](https://github.com/ThinkR-open/signature.r) and [`{signature.js}`](https://github.com/ThinkR-open/signature.js) application.
 
@@ -116,6 +116,12 @@ or shortcut:
 poe test
 ```
 
+If you are using VSCode, you can also dowload the 'Playwright Test' extension and run the tests from the testing tab.
+
+![Playwright Test](signature/assets/tests_with_vscode.png)
+
+[Playwright Test](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+
 ## Poe commands
 
 This project uses the `poe` command to run the app, tests, and other commands.
@@ -148,6 +154,8 @@ What you can do:
 - adapt the signature template to your needs. The template is located in the `signature/template` folder. Edit the `template.html` file to modify the signature template.
 
 - modify the app to add or remove fields from the signature form to edit the signature.
+
+- update tests to match the new fields.
 
 - modify the redirection banner to redirect to your own URL.
 

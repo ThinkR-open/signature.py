@@ -45,6 +45,7 @@ def preview_ui():
                             label_busy="Copied!",
                             icon_busy=icon_svg("check"),
                             data_clipboard_target="#signature",
+                            data_testid="copy-button",
                         ),
                         class_="card-footer bg-transparent border-top-0",
                     ),
