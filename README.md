@@ -168,3 +168,7 @@ What you can do:
 - share the app with your colleagues.
 
 - enjoy the app!
+
+## Code of Conduct
+
+Please note that the signature.py project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
