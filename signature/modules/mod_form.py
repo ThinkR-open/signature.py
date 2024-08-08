@@ -68,7 +68,6 @@ def accordion_panels():
 @module.ui
 def form_ui():
     return ui.div(
-        # ui.input_text(id="toto", label="Toto", placeholder="Toto", width="100%"),
         ui.div(
             ui.accordion(*accordion_panels(), id="myAccordion", multiple=False),
             class_="row",
