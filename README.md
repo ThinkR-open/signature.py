@@ -59,7 +59,7 @@ poe runshiny
 
 This app uses Bootstrap `5.3.3`.
 
-To modify the theme, edit the `signature/scss/signature.css` file.
+To modify the theme, edit the `signature/scss/signature.scss` file.
 
 To compile the SCSS to CSS, run:
 
