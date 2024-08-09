@@ -44,7 +44,15 @@ app_ui = ui.page_fixed(
 
 def server(input: Inputs, output: Outputs, session: Session):
     reactive_values = reactive.Value(
-        {"firstname", "lastname", "jobtitle", "email", "phone"}
+        {
+            "firstname",
+            "lastname",
+            "jobtitle",
+            "email",
+            "email_url",
+            "phone",
+            "phone_url",
+        }
     )
 
     mod_form.form_server("form_signature", reactive_values=reactive_values)
