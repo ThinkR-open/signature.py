@@ -27,4 +27,4 @@ jobs:
         run: poetry run playwright install
 
       - name: 🧪 Run tests
-        run: poetry run pytest --github-report -vvv
+        run: poetry run pytest --github-report -vvv --browser webkit --browser chromium --browser firefox
