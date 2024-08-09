@@ -24,7 +24,7 @@ jobs:
         run: poetry install --no-interaction
 
       - name: 🕸️ Ensure browsers are installed
-        run: poetry run playwright install
+        run: poetry run playwright install --with-deps
 
       - name: 🧪 Run tests
-        run: poetry run pytest --github-report -vvv
+        run: poetry run pytest --github-report -vvv --browser webkit --browser chromium --browser firefox

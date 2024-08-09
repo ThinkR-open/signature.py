@@ -89,6 +89,8 @@ def form_server(input: Inputs, output: Outputs, session: Session, reactive_value
                 "lastname": input.lastname(),
                 "job_title": input.job_title(),
                 "email": input.email(),
+                "email_url": f"mailto:{input.email()}",
                 "phone": input.phone(),
+                "phone_url": f"tel:{input.phone()}",
             }
         )

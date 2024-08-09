@@ -72,7 +72,9 @@ def preview_server(
         last_name = reactive_values().get("lastname")
         job_title = reactive_values().get("job_title")
         email = reactive_values().get("email")
+        email_url = reactive_values().get("email_url")
         phone = reactive_values().get("phone")
+        phone_url = reactive_values().get("phone_url")
 
         rendered_template = template.render(
             firstname="{{firstname}}" if first_name == "" else first_name,
@@ -80,6 +82,8 @@ def preview_server(
             job_title="{{job_title}}" if job_title == "" else job_title,
             email="{{email}}" if email == "" else email,
             phone="{{phone}}" if phone == "" else phone,
+            email_url="{{email_url}}" if email_url == "" else email_url,
+            phone_url="{{phone_url}}" if phone_url == "" else phone_url,
         )
         return rendered_template
 
