@@ -18,6 +18,12 @@ Additionally, the application allows you to copy the HTML code with a single but
 
 Lastly, updating the banner (the image at the bottom of the signature) and the associated link for redirection is straightforward. You no longer need to request everyone to update their signature individually for these changes.
 
+## Winner of the 2024 Shiny Contest
+
+🏆 This project won the 2024 Shiny Contest for the best Shiny application with Python.
+
+More details on the contest can be found [here](https://posit.co/blog/winners-of-the-2024-shiny-contest/).
+
 ## Demo
 
 🕹️ Try the app at:
