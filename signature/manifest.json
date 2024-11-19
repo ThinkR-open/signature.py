@@ -18,16 +18,16 @@
       "checksum": "fb3384dc54debf9ac2f861655b17ef61"
     },
     ".DS_Store": {
-      "checksum": "9beba8e7665a8fd7d081a2db0119a10d"
+      "checksum": "e4eda894fe53e8a8548674f0734de828"
     },
     "__init__.py": {
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "app.py": {
-      "checksum": "6495f870021d95acbbbd557ef0c55ffc"
+      "checksum": "af9a4bbe465ae57d9a61175460aeb915"
     },
     "assets/.DS_Store": {
-      "checksum": "e7b257cc2c2fc363dd11963b1a0b369f"
+      "checksum": "120b68f0078387073a2add16a82227ee"
     },
     "assets/current_banner.png": {
       "checksum": "3636b04621cc9c8b814fdef693f124c6"
@@ -56,6 +56,9 @@
     "assets/tests_with_vscode.png": {
       "checksum": "cf4f49c7aeec75575e116f6aa8a8ec09"
     },
+    "css/.DS_Store": {
+      "checksum": "2ee69fe1e83952d259f01faa2b737270"
+    },
     "css/signature.css": {
       "checksum": "07504198248c681e2c61586dbf7b293d"
     },
@@ -69,25 +72,25 @@
       "checksum": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "modules/__pycache__/__init__.cpython-312.pyc": {
-      "checksum": "c5536234a41a619cddadb3c5f700f276"
+      "checksum": "4728ab600e646be03054a054973b2268"
     },
     "modules/__pycache__/mod_form.cpython-312.pyc": {
-      "checksum": "e6ddda00ce13889794c848adbeb96e95"
+      "checksum": "5586aaf5eb933db36018931c649d70e4"
     },
     "modules/__pycache__/mod_navbar.cpython-312.pyc": {
       "checksum": "a437431c6ec31e684076b9d7962e6751"
     },
     "modules/__pycache__/mod_preview.cpython-312.pyc": {
-      "checksum": "63ea9a355f2bbfefbb17d613c5be12a3"
+      "checksum": "df04461f1be4f6bd1ac435eef826aab6"
     },
     "modules/mod_form.py": {
-      "checksum": "c9f972619f3b9211268e0c111182551a"
+      "checksum": "857b332d666549ff448b2ade235ec556"
     },
     "modules/mod_navbar.py": {
       "checksum": "726fbe893cd586f7d82fcf79d065e7ff"
     },
     "modules/mod_preview.py": {
-      "checksum": "0d54be281f3ee33a787bbf10b8eb543e"
+      "checksum": "ab341eb024e2e6b41c6e3527f11d8074"
     },
     "node_modules/.package-lock.json": {
       "checksum": "f472a1d452e19e4da09b1630101a5802"
@@ -1622,14 +1625,23 @@
     "tests/pytest-playwright/__pycache__/test_e2e.cpython-312-pytest-8.2.2.pyc": {
       "checksum": "2138189787b8968d3560be38f2df61af"
     },
+    "tests/pytest-playwright/__pycache__/test_e2e.cpython-312-pytest-8.3.3.pyc": {
+      "checksum": "20e7ba4f4caa64ab90b8ade2cc98f76f"
+    },
     "tests/pytest-playwright/test_e2e.py": {
       "checksum": "8f503e816ae683437283f5f58b50cc43"
     },
     "tests/pytest-unit/__pycache__/test_accordion_panels.cpython-312-pytest-8.2.2.pyc": {
       "checksum": "db33695ee08ded6335cb6e8c72627e97"
     },
+    "tests/pytest-unit/__pycache__/test_accordion_panels.cpython-312-pytest-8.3.3.pyc": {
+      "checksum": "0bc8d84b8084834a3350c5227151cb15"
+    },
     "tests/pytest-unit/__pycache__/test_one_plus_one.cpython-312-pytest-8.2.2.pyc": {
       "checksum": "30f9d60610dd9529dd854e890bd5d937"
+    },
+    "tests/pytest-unit/__pycache__/test_one_plus_one.cpython-312-pytest-8.3.3.pyc": {
+      "checksum": "c18c725f9d512b827e9025cd47a38511"
     },
     "tests/pytest-unit/test_accordion_panels.py": {
       "checksum": "ca85c9fb39cbbdbe047d1d1459c80bd0"
