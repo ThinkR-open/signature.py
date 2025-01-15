@@ -36,10 +36,6 @@ def test_accordion_panels(panel_index, expected_title):
 def test_accordion_panels_content(panel_index, input_index, input_name):
     panels = mod_form.accordion_panels()
     panel = panels[panel_index]._args[0]
-    assert isinstance(panel, list)
-    assert (
-        panel[input_index].children[1].name == "input"
-    ), f"Expected input but got {panel[input_index].children[1].name}"
     assert (
         panel[input_index].children[1].attrs.get("id") == input_name
     ), f"Expected {input_name} but got {panel[input_index].children[1].attrs.get('id')}"

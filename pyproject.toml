@@ -9,7 +9,7 @@ packages = [{include = "signature"}]
 [tool.poetry.dependencies]
 python = "^3.12"
 wheel = "^0.43.0"
-shiny = "1.0.0"
+shiny = "^1.2.1"
 pre-commit = "^3.7.1"
 pytest = "^8.2.2"
 asyncio = "^3.4.3"
@@ -19,7 +19,7 @@ jinja2 = "^3.1.4"
 rsconnect-python = "^1.24.0"
 pytest-github-report = "^0.0.1"
 poethepoet = "^0.27.0"
-htmltools = "^0.5.3"
+htmltools = "^0.6.0"
 pytest-playwright = "^0.5.1"
 
 
