@@ -21,6 +21,7 @@ pytest-github-report = "^0.0.1"
 poethepoet = "^0.27.0"
 htmltools = "^0.6.0"
 pytest-playwright = "^0.5.1"
+shinylive = "^0.7.3"
 
 
 [build-system]
