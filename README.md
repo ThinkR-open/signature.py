@@ -78,7 +78,9 @@ sass scss/signature.scss css/signature.css
 
 The redirection banner is a JavaScript function that redirects the user to the specified URL.
 
-To modify the redirection URL, edit the `index.html` file at the root of the project.
+To modify the redirection URL, creeate a `index.html` file at the root of the project.
+
+See : [signature](https://github.com/ThinkR-open/signature/)
 
 ## Mockup
 
