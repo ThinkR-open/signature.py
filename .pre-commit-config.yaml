@@ -3,11 +3,12 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
+        exclude: ^site/
       - id: end-of-file-fixer
-        exclude: ^signature/css/signature.css.map
+        exclude: ^signature/css/signature.css.map|^site/
       - id: check-yaml
       - id: check-added-large-files
-        exclude: ^signature/assets/current_banner.png
+        exclude: ^signature/assets/current_banner.png|^site/
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.5.1
