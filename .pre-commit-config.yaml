@@ -3,9 +3,9 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        exclude: ^sites/
+        exclude: ^site/
       - id: end-of-file-fixer
-        exclude: ^signature/css/signature.css.map|^sites/
+        exclude: ^signature/css/signature.css.map|^site/
       - id: check-yaml
       - id: check-added-large-files
         exclude: ^signature/assets/current_banner.png
