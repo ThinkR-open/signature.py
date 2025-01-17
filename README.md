@@ -27,7 +27,7 @@ More details on the contest can be found [here](https://posit.co/blog/winners-of
 ## Demo
 
 🕹️ Try the app at:
-[https://connect.thinkr.fr/signature-py/](https://connect.thinkr.fr/signature-py/)
+[https://signature-py.vercel.app/](https://signature-py.vercel.app/)
 
 ## Try locally
 
@@ -78,7 +78,9 @@ sass scss/signature.scss css/signature.css
 
 The redirection banner is a JavaScript function that redirects the user to the specified URL.
 
-To modify the redirection URL, edit the `index.html` file at the root of the project.
+To modify the redirection URL, creeate a `index.html` file at the root of the project.
+
+See : [signature](https://github.com/ThinkR-open/signature/)
 
 ## Mockup
 
@@ -88,18 +90,19 @@ Explore the mockup [here](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7B
 
 ## Deployment
 
-The app is deployed on Connect.
+The app is deployed on **Vercel**.
+
+Export the signature site using the following command:
 
 ```bash
 poetry shell
-cd signature
-rsconnect write-manifest shiny . --overwrite
+shinylive export signature site
 ```
 
-Then update `requirements.txt` :
+Then update run the app locally using the following command:
 
 ```bash
-poetry export --without-hashes --format=requirements.txt > requirements.txt
+python3 -m http.server --directory site --bind localhost 8008
 ```
 
 ## Tests
