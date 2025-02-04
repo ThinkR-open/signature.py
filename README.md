@@ -90,7 +90,9 @@ Explore the mockup [here](https://www.figma.com/proto/u95KvEqgWLB8arxt7saZcJ/%7B
 
 ## Deployment
 
-The app is deployed on **Vercel**.
+The app is deployed on **Vercel + Shinylive** and **Posit Connect**.
+
+### With Shinylive:
 
 Export the signature site using the following command:
 
@@ -103,6 +105,22 @@ Then update run the app locally using the following command:
 
 ```bash
 python3 -m http.server --directory site --bind localhost 8008
+```
+
+### With Posit Connect:
+
+Export the signature site using the following command:
+
+```bash
+poetry shell
+cd signature
+rsconnect write-manifest shiny . --overwrite
+```
+
+If needed, update the `requirements.txt` file with the necessary dependencies.
+
+```bash
+poetry export --without-hashes --format=requirements.txt > requirements.txt
 ```
 
 ## Tests
