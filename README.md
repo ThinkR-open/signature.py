@@ -27,7 +27,7 @@ More details on the contest can be found [here](https://posit.co/blog/winners-of
 ## Demo
 
 🕹️ Try the app at:
-[https://signature-py.vercel.app/](https://signature-py.vercel.app/)
+[https://connect.thinkr.fr/signature-py](https://connect.thinkr.fr/signature-py)
 
 ## Try locally
 

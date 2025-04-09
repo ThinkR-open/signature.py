@@ -15,7 +15,7 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "0bec6cfc600e3f2a0e6c97251a0f173b"
+      "checksum": "450f584bff2e0f3bbc393a2d76d4b232"
     },
     ".DS_Store": {
       "checksum": "e4eda894fe53e8a8548674f0734de828"
@@ -1650,7 +1650,7 @@
       "checksum": "e0fdf08a49f0d7be9060c31fbe60cd99"
     },
     "tests/pytest-unit/__pycache__/test_accordion_panels.cpython-312-pytest-8.3.4.pyc": {
-      "checksum": "1ff5bb23441cc65afd0b1f8dc3fecb07"
+      "checksum": "a617c6ec2e04a1793bc7ae8eafb09714"
     },
     "tests/pytest-unit/__pycache__/test_accordion_panels.cpython-39-pytest-8.3.4.pyc": {
       "checksum": "52fd3dec13f9b8b5bda618b99efba1ef"
