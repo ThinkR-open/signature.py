@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "signature-py"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Arthur Bréant <arthur@thinkr.fr>"]
 readme = "README.md"
@@ -15,13 +15,13 @@ pytest = "^8.2.2"
 asyncio = "^3.4.3"
 faicons = "^0.2.2"
 pathlib = "^1.0.1"
-jinja2 = "^3.1.4"
 rsconnect-python = "^1.24.0"
 pytest-github-report = "^0.0.1"
 poethepoet = "^0.27.0"
 htmltools = "^0.6.0"
 pytest-playwright = "^0.5.1"
 shinylive = "^0.7.3"
+jinja2 = "^3.1.6"
 
 
 [build-system]
